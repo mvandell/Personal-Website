@@ -1,0 +1,28 @@
+header {
+background-color: #9DC7C8;
+}
+
+h1 {
+background-color: #B9A4A2;
+}
+
+.active {
+color: #386C0B;
+}
+
+section {
+background-color: #B3BBBD;
+}
+
+img {
+margin: 50px;
+}
+
+#author {
+margin-left: 300px;
+}
+
+div p {
+text-align: center;
+color: #28464B;
+}
