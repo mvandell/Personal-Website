@@ -1,4 +1,4 @@
-# Personal-Website
+# Personal Website
 
 My first project for the Fullstack Academy Grace Hopper part-time bootcamp.
 A sample personal site for a team member. Includes a home page introducing the team member, an about page describing said team member, and a portfolio page with the team member's websites.
