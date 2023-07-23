@@ -4,6 +4,12 @@ background-color: #9DC7C8;
 
 h1 {
 background-color: #B9A4A2;
+color: #4B2840;
+}
+
+h2 {
+background-color: aliceblue;
+color: #2E4057;
 }
 
 .active {
@@ -12,6 +18,7 @@ color: #386C0B;
 
 section {
 background-color: #B3BBBD;
+padding: 30px;
 }
 
 img {
@@ -25,4 +32,5 @@ margin-left: 300px;
 div p {
 text-align: center;
 color: #28464B;
+font-family: 'Times New Roman', Times, serif;
 }
