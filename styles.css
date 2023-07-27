@@ -34,3 +34,14 @@ text-align: center;
 color: #28464B;
 font-family: 'Times New Roman', Times, serif;
 }
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+    }
+}
