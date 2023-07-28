@@ -83,6 +83,13 @@ form {
     margin-top: 20px;
 }
 
+/* 
+Advanced rule - hover 
+Finish styling form - grid?
+Rounded corners
+Shadows on img
+*/
+
 @media (max-width: 480px) {
     nav {
         flex-direction: column;
