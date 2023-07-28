@@ -42,18 +42,20 @@ border: 2px solid black;
 }
 
 #author {
-margin-left: 300px;
+margin-left: 575px;
 }
 
 div p {
 text-align: center;
 color: #28464B;
-font-family: 'Times New Roman', Times, serif;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: bold;
 }
 
 nav {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 nav a {
