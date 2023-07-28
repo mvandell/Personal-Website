@@ -56,6 +56,11 @@ nav {
     flex-direction: row;
 }
 
+nav a {
+    color: blue;
+    margin: 10px;
+}
+
 @media (max-width: 480px) {
     nav {
         flex-direction: column;
