@@ -41,6 +41,16 @@ border: 2px solid black;
     width: 300px; 
 }
 
+#animals {
+    height: 40%;
+    width: 40%;
+}
+
+#grocerylist {
+    height: 40%;
+    width: 40%;
+}
+
 #author {
 margin-left: 575px;
 }
