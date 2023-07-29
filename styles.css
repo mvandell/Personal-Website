@@ -113,4 +113,8 @@ form {
     nav {
         flex-direction: column;
     }
+
+    #homecontent {
+        flex-direction: column;
+    }
 }
