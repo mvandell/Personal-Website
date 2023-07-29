@@ -107,12 +107,7 @@ form {
 #author {
     align-self: flex-end;
 }
-/* 
-Advanced rule - hover 
-Finish styling form - grid?
-Rounded corners
-Shadows on img
-*/
+
 
 @media (max-width: 480px) {
     nav {
