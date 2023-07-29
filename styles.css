@@ -37,8 +37,8 @@ border: 2px solid black;
 }
 
 #myself {
-    height: 400px;
-    width: 300px; 
+    height: 24%;
+    width: 24%;
 }
 
 #animals {
@@ -51,8 +51,11 @@ border: 2px solid black;
     width: 40%;
 }
 
-#author {
-margin-left: 575px;
+#homecontent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
 }
 
 div p {
@@ -90,6 +93,16 @@ form {
     margin-left: 3rem;
 }
 
+#poem {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-left: 200px;
+}
+
+#author {
+    align-self: flex-end;
+}
 /* 
 Advanced rule - hover 
 Finish styling form - grid?
