@@ -1,10 +1,14 @@
+html {
+    background-image: url("./lassen.JPG");
+    background-size: cover;
+}
+
 header {
-    background-color: #9DC7C8;
+    background-color: #a9c6ef;
 }
 
 h1 {
-    background-color: #B9A4A2;
-    color: #4B2840;
+    color: #575761;
 }
 /*
 TODO: change color scheme
@@ -18,24 +22,20 @@ TODO: change color scheme
 }
 
 nav a:hover {
-    background-color: #D4C5E2;
+    background-color: #d1dfcd;
 }
 
 section {
-    background-color: #B3BBBD;
-    padding: 30px;
+    background-color: #d1dfcd;
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
 }
 
 img {
     margin: 50px;
     border: 2px solid black;
     width: 70%;
-}
-
-div p {
-    text-align: center;
-    color: #28464B;
-    font-weight: bold;
 }
 
 nav {
@@ -48,35 +48,6 @@ nav a {
     color: blue;
     padding: 10px;
 }
-
-section a {
-    color: #B8336A;
-}
-
-form {
-    background-color:#BCCEF1 ;
-    padding: 2rem;
-    margin: 20px;
-    margin-right: 60vw;
-}
-
-#submit {
-    background-color: #C9DBBA;
-    padding: 5px 8px;
-    margin-left: 3rem;
-}
-
-#poem {
-    display: flex;
-    flex-direction: column;
-    width: fit-content;
-    margin-left: 200px;
-}
-
-#author {
-    align-self: flex-end;
-}
-
 
 @media (max-width: 480px) {
     nav {
