@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <script defer src="./script.js"></script>
     <title>Marisa Vandellos</title>
 </head>
+
 <body>
     <header>
         <nav>
@@ -19,66 +21,75 @@
     <!--TODO: Distribute skills horizontally- flexbox? grid?-->
     <!--TODO: Style Education and Experience sections-->
     <a href="./Marisa Vandellos Technical Resume.pdf" download>Download Full Resume</a>
-    <section>
-        <h2>Skills</h2>
-        <h3>Proficient</h3>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>React Router</li>
-            <li>Prisma</li>
-            <li>MUI</li>
-        </ul>
-        <h3>Knowledgeable</h3>
-        <ul>
-            <li>Redux</li>
-            <li>NPM</li>
-            <li>GitHub</li>
-        </ul>
-        <h3>Familiar</h3>
-        <ul>
-            <li>PostgreSQL</li>
-            <li>RTKQuery</li>
-            <li>Jest</li>
-        </ul>
-    </section>
-    <section>
-        <h2>Experience</h2>
-        <ul>
-            <li>Whole Foods Market</li>
-            <ul>
-                <li>Customer Associate</li>
-            </ul>
-            <li>University of California, Davis</li>
-            <ul>
-                <li>CalTeach Intern</li>
-                <li>Lead Student Farmer</li>
-            </ul>
-            <li>HomeGoods Corporation</li>
-            <ul>
-                <li>Merchandise Associate</li>
-            </ul>
-        </ul>
-    </section>
-    <section>
-        <h2>Education</h2>
-        <ul>
-            <li>Fullstack Academy Grace Hopper Web Development Bootcamp</li>
-            <ul>
-                <li>Completed January 2024</li>
-            </ul>
-            <li>University of California, Davis</li>
-            <ul>
-                <li>Bachelor of Science in Plant Sciences</li>
-            </ul>
-            <li>College of San Mateo</li>
-            <ul>
-                <li>Introduction to Web Programming</li>
-                <li>Introduction to Object-Oriented Program Design</li>
-            </ul>
-        </ul>
-    </section>
+    <div class="bigFlex">
+        <div id="skill">
+            <h2>Skills</h2>
+            <section class="flex">
+                <h3>Proficient</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>React Router</li>
+                    <li>Prisma</li>
+                    <li>MUI</li>
+                </ul>
+                <h3>Knowledgeable</h3>
+                <ul>
+                    <li>Redux</li>
+                    <li>NPM</li>
+                    <li>GitHub</li>
+                </ul>
+                <h3>Familiar</h3>
+                <ul>
+                    <li>PostgreSQL</li>
+                    <li>RTKQuery</li>
+                    <li>Jest</li>
+                </ul>
+            </section>
+        </div>
+        <div id="exp">
+            <h2>Experience</h2>
+            <section style="width: 16vw;">
+                <ul>
+                    <li>Whole Foods Market</li>
+                    <ul>
+                        <li>Customer Associate</li>
+                    </ul>
+                    <li>University of California, Davis</li>
+                    <ul>
+                        <li>CalTeach Intern</li>
+                        <li>Lead Student Farmer</li>
+                    </ul>
+                    <li>HomeGoods Corporation</li>
+                    <ul>
+                        <li>Merchandise Associate</li>
+                    </ul>
+                </ul>
+            </section>
+        </div>
+        <div id="ed">
+            <h2>Education</h2>
+            <section style="width: 25vw;">
+                <ul>
+                    <li>Fullstack Academy Grace Hopper Web Development Bootcamp</li>
+                    <ul>
+                        <li>Completed January 2024</li>
+                    </ul>
+                    <li>University of California, Davis</li>
+                    <ul>
+                        <li>Bachelor of Science in Plant Sciences</li>
+                    </ul>
+                    <li>College of San Mateo</li>
+                    <ul>
+                        <li>Introduction to Web Programming</li>
+                        <li>Introduction to Object-Oriented Program Design</li>
+                    </ul>
+                </ul>
+            </section>
+        </div>
+    </div>
 </body>
+
 </html>

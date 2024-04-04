@@ -29,7 +29,6 @@ section {
     background-color: #d1dfcd;
     padding: 10px;
     margin: 10px;
-    width: 50%;
 }
 
 img {
@@ -47,6 +46,21 @@ nav {
 nav a {
     color: blue;
     padding: 10px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bigFlex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#skill {
+    flex-grow: 2;
 }
 
 @media (max-width: 480px) {
