@@ -34,7 +34,6 @@ section {
 img {
     margin: 50px;
     border: 2px solid black;
-    width: 70%;
 }
 
 nav {
@@ -63,12 +62,16 @@ nav a {
     flex-grow: 2;
 }
 
+#contact {
+    width: 12vw;
+}
+
 @media (max-width: 480px) {
     nav {
         flex-direction: column;
     }
 
-    #homecontent {
+    .bigFlex {
         flex-direction: column;
     }
 }
