@@ -8,14 +8,30 @@ header {
 }
 
 h1 {
-    color: #575761;
+    color: #186318;
 }
-/*
-TODO: change color scheme
- h2 {
-    background-color: aliceblue;
-    color: #2E4057;
-} */
+
+h2 {
+    color: #205AAC;
+}
+
+div h2 {
+    margin-left: 1vw;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+h2 a {
+    color: #205AAC;
+}
+
+button {
+    background-color: #E9EFE7;
+    border: solid #575761 1px;
+    padding: 2px;
+    margin: 5px;
+    margin-left: 40px;
+}
 
 .active {
     color: #0B8421;
@@ -47,7 +63,7 @@ nav a {
     padding: 10px;
 }
 
-.flex {
+#flex {
     display: flex;
     justify-content: space-around;
 }
@@ -64,6 +80,15 @@ nav a {
 
 #contact {
     width: 12vw;
+}
+
+.resume {
+    padding-top: 0px; 
+    margin-top: 0px;
+}
+
+.contact {
+    text-align: center;
 }
 
 @media (max-width: 480px) {
