@@ -48,7 +48,7 @@ section {
 }
 
 img {
-    margin: 50px;
+    margin: 5vw;
     border: 2px solid black;
 }
 
@@ -89,6 +89,11 @@ nav a {
 
 .contact {
     text-align: center;
+}
+
+.screenshot {
+    margin: 0vw 1vw;
+    width: 50vw;
 }
 
 @media (max-width: 480px) {
