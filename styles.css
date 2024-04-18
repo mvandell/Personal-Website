@@ -79,7 +79,9 @@ nav a {
 }
 
 #contact {
-    width: 12vw;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
 }
 
 .resume {
